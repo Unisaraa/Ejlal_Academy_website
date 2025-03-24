@@ -2349,10 +2349,7 @@ margin-bottom: 1200px ;
 
 @media (max-width: 768px) {
 
-    body, html {
-        overflow-x: hidden;
-    }
-
+  
     .logo {
         margin-left: 0 !important;
         width: 200px;
