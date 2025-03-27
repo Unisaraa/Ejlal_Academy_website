@@ -2489,3 +2489,83 @@ margin-bottom: 1200px ;
     width: 80px;
   }
 }
+
+
+
+
+
+
+
+
+
+/* ==== Mobile Specific Styles ==== */
+@media screen and (max-width: 768px) {
+
+  body {
+    overflow-x: hidden;
+  }
+
+  header.main-header,
+  .transparent-banner,
+  .hero1-header,
+  .overlay1,
+  .header-title1 {
+    text-align: center;
+    padding: 10px;
+  }
+
+  .logo {
+    max-width: 120px;
+    height: auto;
+  }
+
+  nav#wh ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    gap: 10px;
+  }
+
+  .section-boxes,
+  .training-paths,
+  .program-boxes,
+  .clubs-grid,
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+  }
+
+  .form-input,
+  .form-textarea {
+    width: 90% !important;
+  }
+
+  .box,
+  .card,
+  .faq-box,
+  .social-box {
+    width: 90% !important;
+  }
+
+  .hero1-header img,
+  .transparent-banner img {
+    width: 100%;
+    height: auto;
+  }
+
+  .fixed-logo {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    z-index: 999;
+    width: 80px;
+  }
+
+  footer {
+    padding: 30px 10px;
+    text-align: center;
+  }
+}
