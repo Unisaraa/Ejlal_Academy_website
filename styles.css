@@ -2420,3 +2420,83 @@ margin-bottom: 1200px ;
   }
 
 }
+
+
+
+
+
+from IPython.display import Markdown
+
+# Re-run the same CSS responsive code after the reset
+responsive_css = """
+```css
+/* ✅ تحسين العرض على الجوال والآيباد */
+@media (max-width: 768px) {
+
+  body {
+    overflow-x: hidden; /* يمنع التحريك الجانبي */
+  }
+
+  header.main-header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #0B0431;
+    z-index: 9999;
+    padding: 10px 0;
+  }
+
+  .transparent-banner {
+    margin-top: 90px; /* ترك مساحة للبانر تحت الهيدر */
+  }
+
+  /* جعل كل الحاويات تتناسب مع العرض */
+  .box-container,
+  .cards-container,
+  .faq-boxes,
+  .contact-form,
+  .clubs-section,
+  .form-row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 0 10px;
+  }
+
+  .box,
+  .faq,
+  .card,
+  .form-input,
+  .form-button {
+    width: 100% !important;
+    font-size: 16px;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+
+  /* المسارات المجتمعية */
+  .community-track {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /* تنسيق عنوان الهيرو */
+  .hero-title {
+    font-size: 24px !important;
+    text-align: center;
+    padding: 10px;
+  }
+
+  /* تنسيق الصور */
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  /* تصغير المسافات */
+  section, .content-wrapper {
+    padding: 20px 10px;
+  }
+}
+
