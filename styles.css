@@ -2357,7 +2357,7 @@ margin-bottom: 1200px ;
 
 
 
-@media (max-width: 768px) {
+@media only screen and (max-width: 900px) {
 
     /* يمنع الانزلاق يمين ويسار */
     html, body {
