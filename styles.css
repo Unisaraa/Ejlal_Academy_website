@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&family=Tajawal:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;700;900&display=swap');
 
@@ -35,7 +36,7 @@ body {
     font-family: "Tajawal", sans-serif;
 }
 
-/* طھط­ط¯ظٹط¯ ط§ظ„ط®ط·ظˆط· ط§ظ„ط§ظپطھط±ط§ط¶ظٹط© */
+/* تحديد الخطوط الافتراضية */
 
 html{
     scroll-behavior: smooth;
@@ -52,7 +53,7 @@ body {
 
 }
 
-/* طھط®طµظٹطµ ط§ظ„ط¹ظ†ط§ظˆظٹظ† */
+/* تخصيص العناوين */
 h1, h2, h3 {
     font-family: 'Cairo', sans-serif;
         font-weight: 700;
@@ -61,7 +62,7 @@ h1, h2, h3 {
 font-style: italic;
 }
 
-/* طھط®طµظٹطµ ط§ظ„ظ†طµظˆطµ ط§ظ„ط¹ط§ط¯ظٹط© */
+/* تخصيص النصوص العادية */
 p {
     font-size: 16px;
     color: white;
@@ -69,7 +70,7 @@ p {
 
 }
 
-/* ط¶ط¨ط· ط­ط¬ظ… ط§ظ„ط¹ظ†ط§ظˆظٹظ† */
+/* ضبط حجم العناوين */
 h1 {
     font-size: 36px;
 }
@@ -85,11 +86,11 @@ h3 {
 
 
 
-/* ط¥ط¹ط¯ط§ط¯ ط§ظ„ط®ط·ظˆط· ظˆط§ظ„ط§طھط¬ط§ظ‡ */
+/* إعداد الخطوط والاتجاه */
 body {
     font-family: Arial, sans-serif;
     direction: rtl;
-    background-color: #0D0834; /* ظƒط­ظ„ظٹ   */
+    background-color: #0D0834; /* كحلي   */
 color: white;
     margin: 0;
     padding: 0;
@@ -100,7 +101,7 @@ color: white;
    
 
 
-/* ط§ظ„ظ‡ظٹط¯ط± 
+/* الهيدر 
 header {
     display: flex;
     justify-content: space-between;
@@ -115,22 +116,22 @@ header {
 */
 
 .transparent-banner {
-    width: 100%; /* ظٹظ…طھط¯ ط¹ظ„ظ‰ ط¹ط±ط¶ ط§ظ„طµظپط­ط© */
-    height: 130px; /* ط§ط±طھظپط§ط¹ ط§ظ„ظ…ط³طھط·ظٹظ„ */
-    background: rgba(72, 72, 72, 0.358); /* ظ„ظˆظ† ط´ظپط§ظپ */
+    width: 100%; /* يمتد على عرض الصفحة */
+    height: 130px; /* ارتفاع المستطيل */
+    background: rgba(72, 72, 72, 0.358); /* لون شفاف */
     position: absolute;
-    top: 0; /* ظپظˆظ‚ ط§ظ„ظ…ط­طھظˆظ‰ */
+    top: 0; /* فوق المحتوى */
     left: 0;
     display: flex;
     align-items: center;
-    justify-content: flex-end; /* طھط­ط±ظٹظƒ ط§ظ„ظ…ط­طھظˆظ‰ ط¥ظ„ظ‰ ط§ظ„ظٹظ…ظٹظ† */
-    padding-right: 20px; /* ظ…ط³ط§ظپط© ظ…ظ† ط§ظ„ظٹظ…ظٹظ† */
-    z-index: 10; /* ط­طھظ‰ ظ„ط§ ظٹط®طھظپظٹ ط®ظ„ظپ ط§ظ„ظ…ط­طھظˆظ‰ */
+    justify-content: flex-end; /* تحريك المحتوى إلى اليمين */
+    padding-right: 20px; /* مسافة من اليمين */
+    z-index: 10; /* حتى لا يختفي خلف المحتوى */
     margin-top: 74px;
 }
 
 .logo {
-    width: 300px; /* ط­ط¬ظ… ط§ظ„ط´ط¹ط§ط± */
+    width: 300px; /* حجم الشعار */
     height: auto;
     margin-left: 1150px;
   
@@ -187,7 +188,7 @@ nav ul li a {
 
 }
 
-/* ظ‚ط³ظ… ط§ظ„ظ‡ظٹط±ظˆ */
+/* قسم الهيرو */
 .hero img {
     width: 100%;
     height: auto;
@@ -208,8 +209,8 @@ nav ul li a {
 .nav-link {
     position: relative;
     text-decoration: none;
-    color: white; /* ظ„ظˆظ† ط§ظ„ظ†طµ */
-    padding-bottom: 5px; /* طھط¨ط§ط¹ط¯ طھط­طھ ط§ظ„ظ†طµ */
+    color: white; /* لون النص */
+    padding-bottom: 5px; /* تباعد تحت النص */
     transition: all 0.3s ease-in-out;
  
 
@@ -223,8 +224,8 @@ nav ul li a {
     left: 0;
     bottom: 0;
     width: 0%;
-    height: 2px; /* ط³ظ…ط§ظƒط© ط§ظ„ط®ط· */
-    background-color: #cca01d; /* ظ„ظˆظ† ط§ظ„ط®ط· */
+    height: 2px; /* سماكة الخط */
+    background-color: #cca01d; /* لون الخط */
     transition: width 0.3s ease-in-out;
   
 }
@@ -233,24 +234,24 @@ nav ul li a {
 .nav-link:focus::after {
     width: 100%;
 }
-/* طھظ†ط³ظٹظ‚ ط§ظ„ظپظˆطھط± 
+/* تنسيق الفوتر 
 
 footer {
     position: relative;
-    background-color: #08122b; /* ط£ط؛ظ…ظ‚ ظ…ظ† ط¨ط§ظ‚ظٹ ط§ظ„ظ…ظˆظ‚ط¹ 
-    padding: 80px 20px; /* ط²ظٹط§ط¯ط© ط§ظ„ظ…ط³ط§ط­ط© ط§ظ„ط¹ظ„ظˆظٹط© ظˆط§ظ„ط³ظپظ„ظٹط© 
-    min-height: 300px; /* ط±ظپط¹ ط­ط¬ظ… ط§ظ„ظپظˆطھط± 
+    background-color: #08122b; /* أغمق من باقي الموقع 
+    padding: 80px 20px; /* زيادة المساحة العلوية والسفلية 
+    min-height: 300px; /* رفع حجم الفوتر 
     text-align: center;
     color: white;
     display: flex;
-    justify-content: space-between; /* طھظˆط²ظٹط¹ ط§ظ„ط¹ظ†ط§طµط± 
+    justify-content: space-between; /* توزيع العناصر 
     align-items: flex-start;
 }
  */
  /*
 footer {
     position: relative;
-   /*  background-color: #140048; ط£ط؛ظ…ظ‚ ظ…ظ† ط§ظ„ط®ظ„ظپظٹط© ط§ظ„ط±ط¦ظٹط³ظٹط©
+   /*  background-color: #140048; أغمق من الخلفية الرئيسية
     padding: 50px 20px;
     text-align: center;
     padding: 0;
@@ -260,11 +261,11 @@ background: radial-gradient(circle, rgb(65, 255, 242) 99%,  #cfc1f1(237,237,237,
 
 
     display: flex;
-    min-height: 300px; /* ط±ظپط¹ ط­ط¬ظ… ط§ظ„ظپظˆطھط± 
-    padding: 80px 20px; /* ط²ظٹط§ط¯ط© ط§ظ„ظ…ط³ط§ط­ط© ط§ظ„ط¹ظ„ظˆظٹط© ظˆط§ظ„ط³ظپظ„ظٹط© 
+    min-height: 300px; /* رفع حجم الفوتر 
+    padding: 80px 20px; /* زيادة المساحة العلوية والسفلية 
 }
 
-/* طھط£ط«ظٹط± ط§ظ„طھظ…ظˆظٹظ‡ ط§ظ„ط°ظ‡ط¨ظٹ 
+/* تأثير التمويه الذهبي 
 .footer-blur {
     position: absolute;
     top: -50px;
@@ -278,7 +279,7 @@ background: radial-gradient(circle, rgb(65, 255, 242) 99%,  #cfc1f1(237,237,237,
   
 }
 
-/* ط§ظ„ط´ط±ظƒط§ط، ظپظٹ ط§ظ„ظپظˆطھط± */
+/* الشركاء في الفوتر */
 .partners {
     display: flex;
     justify-content: center;
@@ -316,14 +317,14 @@ transform: scale(1.7);
 }
 
 
-/* طھظ†ط³ظٹظ‚ ط§ظ„ظ†طµظˆطµ ظپظٹ ط§ظ„ظپظˆطھط± 
+/* تنسيق النصوص في الفوتر 
 footer p {
     color: white;
     margin: 10px 0;
 }
 
 footer a {
-    color: #C2a43f; /* ط°ظ‡ط¨ظٹ 
+    color: #C2a43f; /* ذهبي 
     text-decoration: none;
 }
 
@@ -332,7 +333,7 @@ footer a:hover {
 }
 
 
-/* ط§ظ„ط´ط±ظƒط§ط، */
+/* الشركاء */
 .partners {
     display: flex;
     justify-content: center;
@@ -360,7 +361,7 @@ footer a:hover {
 
 
 
-/* طھظ†ط³ظٹظ‚ ظ‚ط³ظ… ظ…ظ† ظ†ط­ظ† ظˆط§ظ„ظ‚ظٹظ… ظˆط§ظ„ط±ط¤ظٹط© */
+/* تنسيق قسم من نحن والقيم والرؤية */
 .about {
     display: flex;
     justify-content: center;
@@ -391,9 +392,9 @@ footer a:hover {
 
 
 .about-icon {
-    width: 150px; /* ط­ط¬ظ… ط§ظ„ط£ظٹظ‚ظˆظ†ط© */
+    width: 150px; /* حجم الأيقونة */
     display: block;
-    margin: 0 auto 10px; /* ط¬ط¹ظ„ ط§ظ„ط£ظٹظ‚ظˆظ†ط© ظپظٹ ط§ظ„ظ…ظ†طھطµظپ */
+    margin: 0 auto 10px; /* جعل الأيقونة في المنتصف */
     margin-top: 50px;
 
 }
@@ -402,7 +403,7 @@ footer a:hover {
 
 
 
-/* طھظ†ط³ظٹظ‚ ظ‚ط³ظ… ط§ط³طھط±ط§طھظٹط¬ظٹط§طھظ†ط§ */
+/* تنسيق قسم استراتيجياتنا */
 .strategies {
     text-align: center;
     padding: 50px;
@@ -422,7 +423,7 @@ footer a:hover {
 
 }
 
-/* طھظ†ط³ظٹظ‚ ظ‚ط³ظ… ظ…ط³ط§ط±ط§طھ ط§ظ„طھط¯ط±ظٹط¨ */
+/* تنسيق قسم مسارات التدريب */
 .training-paths {
     text-align: center;
     padding: 50px;
@@ -446,7 +447,7 @@ footer a:hover {
 
 
 
-/* طھط­ط³ظٹظ† ط´ظƒظ„ ط§ظ„ظپظˆطھط± */
+/* تحسين شكل الفوتر */
 footer {
   
     background: #222;
@@ -598,16 +599,16 @@ margin-top: 60px;
     color: #fff;
   }
   
-  /*ط§ظ„ط¯ظˆط±ط§طھ */
+  /*الدورات */
 
-  /* طھظ†ط³ظٹظ‚ ط§ظ„ظ‚ط³ظ… ط§ظ„ط¹ط§ظ… */
+  /* تنسيق القسم العام */
 .courses-section {
     text-align: center;
     padding: 50px 10px;
 
 }
 
-/* ط§ظ„ط¹ظ†ظˆط§ظ† ط§ظ„ط±ط¦ظٹط³ظٹ */
+/* العنوان الرئيسي */
 .section-title {
     font-size: 35px;
     font-weight: bold;
@@ -618,7 +619,7 @@ margin-top: 60px;
     margin-left: 75%;
 }
 
-/* ط­ط§ظˆظٹط© ط§ظ„ط¯ظˆط±ط§طھ */
+/* حاوية الدورات */
 .courses-container {
     display: flex;
     align-items: center;
@@ -629,22 +630,22 @@ margin-top: 60px;
 
 }
 
-/* ط­ط§ظˆظٹط© طھظ…ط±ظٹط± ط§ظ„ط¯ظˆط±ط§طھ */
+/* حاوية تمرير الدورات */
 .courses-wrapper {
     display: flex;
     gap: 20px;
     overflow-x: auto;
     scroll-behavior: smooth;
     padding: 20px;
-    scrollbar-width: none; /* ظٹط®ظپظٹ ط´ط±ظٹط· ط§ظ„طھظ…ط±ظٹط± */
+    scrollbar-width: none; /* يخفي شريط التمرير */
 }
 
-/* ط¥ط®ظپط§ط، ط´ط±ظٹط· ط§ظ„طھظ…ط±ظٹط± ظپظٹ ط§ظ„ظ…طھطµظپط­ط§طھ ط§ظ„ط£ط®ط±ظ‰ */
+/* إخفاء شريط التمرير في المتصفحات الأخرى */
 .courses-wrapper::-webkit-scrollbar {
     display: none;
 }
 
-/* طھطµظ…ظٹظ… ط§ظ„ط¨ط·ط§ظ‚ط© */
+/* تصميم البطاقة */
 .course-card {
     min-width: 250px;
     max-width: 250px;
@@ -672,7 +673,7 @@ margin-top: 60px;
   color: goldenrod;
 }
 
-/* ط£ط²ط±ط§ط± ط§ظ„طھظ†ظ‚ظ„ */
+/* أزرار التنقل */
 .nav-btn {
     position: absolute;
     background: rgba(115, 0, 255, 0.886);
@@ -697,24 +698,24 @@ margin-top: 60px;
     right: -40px;
 }
 
-/*ط§ظ„ظ‡ط¯ط± */
+/*الهدر */
 
 
-/* طھطµظ…ظٹظ… ط§ظ„ظ‡ظٹط¯ط± */
+/* تصميم الهيدر */
 .hero-header {
     position: relative;
     width: 50%;
-    height: 800px; /* ظٹظ…ظƒظ†ظƒ طھط¹ط¯ظٹظ„ظ‡ ط­ط³ط¨ ط§ظ„ط­ط§ط¬ط© */
+    height: 800px; /* يمكنك تعديله حسب الحاجة */
     background: url('PHOTO-2025-02-19-08-53-29.jpg') no-repeat center center/cover;
     display: flex;
     align-items: center;
-    justify-content: flex-end; /* ظٹط¶ط¹ ط§ظ„ظ†طµ ط¹ظ„ظ‰ ط§ظ„ظٹظ…ظٹظ† */
-    padding-left: 50%; /* ظٹط¨ط¹ط¯ ط§ظ„ظ†طµ ط¹ظ† ط§ظ„ط­ط§ظپط© ط§ظ„ظٹظ…ظ†ظ‰ */
+    justify-content: flex-end; /* يضع النص على اليمين */
+    padding-left: 50%; /* يبعد النص عن الحافة اليمنى */
   filter: none;
  
 }
 
-/* ط·ط¨ظ‚ط© ط§ظ„ط´ظپط§ظپظٹط© ظپظˆظ‚ ط§ظ„طµظˆط±ط© */
+/* طبقة الشفافية فوق الصورة */
 .overlay {
     position: absolute;
     top: 0;
@@ -725,14 +726,14 @@ margin-top: 60px;
   
 }
 
-/* طھظ†ط³ظٹظ‚ ط§ظ„ظ†طµ */
+/* تنسيق النص */
 .header-title {
     position: relative;
     font-size: 60px;
     font-weight: bold;
     color: white;
-    font-family: 'Cairo', sans-serif; /* ط®ط· ظ‚ط±ظٹط¨ ظ…ظ† ط§ظ„ظ„ظٹ ط¨ط§ظ„طµظˆط±ط© */
-    text-align: right; /* ظٹط¬ط¹ظ„ ط§ظ„ظ†طµ ظپظٹ ط£ظ‚طµظ‰ ط§ظ„ظٹظ…ظٹظ† */
+    font-family: 'Cairo', sans-serif; /* خط قريب من اللي بالصورة */
+    text-align: right; /* يجعل النص في أقصى اليمين */
     line-height: 1.9;
     margin-left: 40%;
     
@@ -766,23 +767,23 @@ margin-top: 60px;
 
 
 
-/*ظ‡ط¯ظپظ†ط§ */
-/* طھظ†ط³ظٹظ‚ ط§ظ„ظ‚ط³ظ… ط§ظ„ط¹ط§ظ… */
+/*هدفنا */
+/* تنسيق القسم العام */
 .goal-section {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 800px; /* ظٹظ…ظƒظ†ظƒ طھط¹ط¯ظٹظ„ظ‡ ط­ط³ط¨ ط§ظ„ط­ط§ط¬ط© */
+    height: 800px; /* يمكنك تعديله حسب الحاجة */
     background: url('') no-repeat center center/cover;
     position: relative;
 }
 
-/* ط§ظ„طµظ†ط¯ظˆظ‚ ط§ظ„ط¨ظ†ظپط³ط¬ظٹ */
+/* الصندوق البنفسجي */
 .goal-box {
-    background: rgba(255, 255, 255, 0.374); /* ظ„ظˆظ† ط¨ظ†ظپط³ط¬ظٹ ظ…ط¹ ط´ظپط§ظپظٹط© */
+    background: rgba(255, 255, 255, 0.374); /* لون بنفسجي مع شفافية */
     padding: 60px;
-    border-radius: 40px; /* ط²ظˆط§ظٹط§ ط¯ط§ط¦ط±ظٹط© */
-    max-width: 500px; /* ط¹ط±ط¶ ظ…ظ†ط§ط³ط¨ */
+    border-radius: 40px; /* زوايا دائرية */
+    max-width: 500px; /* عرض مناسب */
     text-align: center;
     color: white;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
@@ -795,7 +796,7 @@ margin-top: 60px;
     box-shadow: 0 8px 20px rgba(0,0,0,0.3);
 }
 
-/* طھظ†ط³ظٹظ‚ ط§ظ„ط¹ظ†ظˆط§ظ† */
+/* تنسيق العنوان */
 .goal-title {
     font-size: 36px;
     font-weight: bold;
@@ -805,17 +806,17 @@ margin-top: 60px;
 
 }
 
-/* طھظ†ط³ظٹظ‚ ط§ظ„ظ†طµ */
+/* تنسيق النص */
 .goal-text {
     font-size: 16px;
     line-height: 1.6;
 }
 
 
-/*ط¨ط±ط§ظ…ط¬ظ†ط§ ط§ظ„ظˆط±ط´ */
+/*برامجنا الورش */
 
 
-/* ط®ظ„ظپظٹط© ط§ظ„ظپظٹط¯ظٹظˆ */
+/* خلفية الفيديو */
 .workshops-header {
     position: relative;
     width: 100%;
@@ -834,7 +835,7 @@ margin-right: 60px;
   
 }
 
-/* ط·ط¨ظ‚ط© ط´ظپط§ظپط© */
+/* طبقة شفافة */
 .overlay {
     position: absolute;
     top: 0;
@@ -844,7 +845,7 @@ margin-right: 60px;
   
 }
 
-/* ط¹ظ†ظˆط§ظ† ط§ظ„ظ‚ط³ظ… */
+/* عنوان القسم */
 .workshops-title {
     position: absolute;
     top: 50%;
@@ -859,7 +860,7 @@ margin-right: 60px;
     
 }
 
-/* ظˆطµظپ ط§ظ„ظˆط±ط´ */
+/* وصف الورش */
 .workshops-description {
     text-align: center;
     padding: 20px;
@@ -880,7 +881,7 @@ margin-right: 60px;
 
 margin-right: 20px;
 }
-/* ط¹ظ†ظˆط§ظ† ط§ظ„ط¨ط±ط§ظ…ط¬ */
+/* عنوان البرامج */
 .section-title {
     text-align: center;
     font-size: 34px;
@@ -895,7 +896,7 @@ margin-right: 20px;
 
 
 
-/* طھظ…ط±ظٹط± ط§ظ„ظˆط±ط´ */
+/* تمرير الورش */
 .workshops-container {
     display: flex;
     align-items: center;
@@ -905,7 +906,7 @@ margin-right: 20px;
     margin: auto;
 }
 
-/* طھظ…ط±ظٹط± ط£ظپظ‚ظٹ */
+/* تمرير أفقي */
 .workshops-wrapper {
     display: flex;
     gap: 20px;
@@ -919,7 +920,7 @@ margin-right: 20px;
     display: none;
 }
 
-/* طھطµظ…ظٹظ… ط§ظ„ط¨ط·ط§ظ‚ط§طھ */
+/* تصميم البطاقات */
 .workshop-card {
     min-width: 280px;
     max-width: 300px;
@@ -941,7 +942,7 @@ margin-right: 20px;
    margin-left: 48px;
 }
 
-/*  background: goldenrod; ظ‡ط°ط§ ط§ظ„ظ„ظˆظ† ط§ط°ط§ ظƒط§ظ† ظ…طھط§ط­ */
+/*  background: goldenrod; هذا اللون اذا كان متاح */
 
 .workshop-tag {
     position: absolute;
@@ -964,7 +965,7 @@ margin-right: 20px;
    
 }
 
-/* ط£ظٹظ‚ظˆظ†ط§طھ ط§ظ„طھظپط§طµظٹظ„ */
+/* أيقونات التفاصيل */
 .workshop-info {
     display: flex;
     flex-direction: column;
@@ -973,7 +974,7 @@ margin-right: 20px;
     color: #555;
 }
 
-/* ط²ط± ط§ظ„طھظپط§طµظٹظ„ ط£ظˆ ط§ظ„ط¥ط؛ظ„ط§ظ‚ */
+/* زر التفاصيل أو الإغلاق */
 .workshop-btn {
     width: 100%;
     padding: 10px;
@@ -998,7 +999,7 @@ margin-right: 20px;
 
 }
 
-/* ط£ط²ط±ط§ط± ط§ظ„طھظ†ظ‚ظ„ */
+/* أزرار التنقل */
 .nav-btn {
     position: absolute;
     background: #6a0dad;
@@ -1023,9 +1024,9 @@ margin-right: 20px;
 }
 
 
-/*طھظˆط§طµظ„ ظ…ط¹ظ†ط§ */
+/*تواصل معنا */
 
-/* ط®ظ„ظپظٹط© ط§ظ„ظ‚ط³ظ… */
+/* خلفية القسم */
 .contact-section {
     background: radial-gradient(circle, rgba(117, 75, 215, 0.3) 20%, #0D0834 60%);
 
@@ -1034,17 +1035,17 @@ margin-right: 20px;
     padding: 50px 20px;
 }
 
-/* ط¹ظ†ظˆط§ظ† ط§ظ„ظ‚ط³ظ… */
+/* عنوان القسم */
 .contact-title {
     font-size: 50px;
     font-weight: bold;
     margin-bottom: 20px;
     font-family: 'Cairo', sans-serif;
-    color: whitesmoke; /* ظ„ظˆظ† ط°ظ‡ط¨ظٹ ط¬ظ…ظٹظ„  
+    color: whitesmoke; /* لون ذهبي جميل  
     #0D0834*/
 }
 
-/* طھظ†ط³ظٹظ‚ ط§ظ„ظپظˆط±ظ… */
+/* تنسيق الفورم */
 .contact-form {
     max-width: 600px;
     margin: auto;
@@ -1054,7 +1055,7 @@ margin-right: 20px;
     backdrop-filter: blur(5px);
 }
 
-/* طھظ†ط³ظٹظ‚ ط§ظ„ط­ظ‚ظˆظ„ */
+/* تنسيق الحقول */
 .form-group {
     margin-bottom: 15px;
     text-align: right;
@@ -1083,12 +1084,12 @@ margin-right: 20px;
     color: rgba(255, 255, 255, 0.7);
 }
 
-/* ط¬ط¹ظ„ ط­ظ‚ظ„ ط§ظ„ط±ط³ط§ظ„ط© ظٹط£ط®ط° ط¹ط±ط¶ ظƒط§ظ…ظ„ */
+/* جعل حقل الرسالة يأخذ عرض كامل */
 .full-width {
     width: 100%;
 }
 
-/* ط²ط± ط§ظ„ط¥ط±ط³ط§ظ„ */
+/* زر الإرسال */
 .send-btn {
     background: #7c7c7cb5;
     font-family: 'Cairo', sans-serif;
@@ -1110,7 +1111,7 @@ margin-right: 20px;
 
 
 
-/*ظ†ط´ظˆظپ ظ†ط¬ط±ط¨ */
+/*نشوف نجرب */
 
 .clubs-section {
 
@@ -1179,7 +1180,7 @@ margin-right: 20px;
 
 }
 
-/* طھظ†ط³ظٹظ‚ ط§ظ„ط¹ظ†ظˆط§ظ† ظ…ط¹ ط§ظ„ط®ط·ظٹظ† ط§ظ„ط¬ط§ظ†ط¨ظٹظٹظ† */
+/* تنسيق العنوان مع الخطين الجانبيين */
 .title-container {
     display: flex;
     align-items: center;
@@ -1190,17 +1191,17 @@ margin-right: 20px;
 .map-title {
     font-size: 35px;
     font-weight: bold;
-    color:  #e4d96f; /* ظ„ظˆظ† ط°ظ‡ط¨ظٹ */
+    color:  #e4d96f; /* لون ذهبي */
     margin: 0 15px;
 
    font-family: "Tajawal", sans-serif;
 }
 
-/* ط§ظ„ط®ط·ظˆط· ط§ظ„ط¬ط§ظ†ط¨ظٹط© */
+/* الخطوط الجانبية */
 .line {
     width: 160px;
     height: 3px;
-    background-color: white; /* ظ†ظپط³ ظ„ظˆظ† ط§ظ„ط¹ظ†ظˆط§ظ† */
+    background-color: white; /* نفس لون العنوان */
     border-radius: 5px;
 }
 
@@ -1213,7 +1214,7 @@ margin-right: 20px;
 }
 
 
-/*ط®ط¨ط±ط§طھظ†ط§ ط§ظ„ظ…طھظ†ظ‚ظ„ظ‡ */
+/*خبراتنا المتنقله */
 
 .title-container {
     display: flex;
@@ -1225,17 +1226,17 @@ margin-right: 20px;
 .map-title {
     font-size: 35px;
     font-weight: bold;
-    color:  #e4d96f; /* ظ„ظˆظ† ط°ظ‡ط¨ظٹ */
+    color:  #e4d96f; /* لون ذهبي */
     margin: 0 15px;
 
    font-family: "Tajawal", sans-serif;
 }
 
-/* ط§ظ„ط®ط·ظˆط· ط§ظ„ط¬ط§ظ†ط¨ظٹط© */
+/* الخطوط الجانبية */
 .line {
     width: 160px;
     height: 3px;
-    background-color: white; /* ظ†ظپط³ ظ„ظˆظ† ط§ظ„ط¹ظ†ظˆط§ظ† */
+    background-color: white; /* نفس لون العنوان */
     border-radius: 5px;
 }
 
@@ -1326,7 +1327,7 @@ border-radius: 5px;
     color:#e4d96f;
   }
 
-  /*ط§ظ„ظ…ط±ظƒط² ط§ظ„ط§ط¹ظ„ط§ظ…ظٹ */
+  /*المركز الاعلامي */
   .gallery {
     display: flex;
     flex-wrap: wrap;
@@ -1431,7 +1432,7 @@ margin: auto;
     background-color: goldenrod;
     top: 0;
     left: 0;
-    z-index: 3; /* ظپظˆظ‚ ط§ظ„ط¨ظˆظƒط³ */
+    z-index: 3; /* فوق البوكس */
     margin-top: 835px;
 }
 
@@ -1442,7 +1443,7 @@ margin: auto;
     background-color: goldenrod;
     top: 30px;
     left: 0;
-    z-index: 1; /* ظپظˆظ‚ ط§ظ„ط®ظ„ظپظٹط© ظ„ظƒظ† طھط­طھ ط§ظ„ط¨ظˆظƒط³ */
+    z-index: 1; /* فوق الخلفية لكن تحت البوكس */
     margin-top: 830px;
 }
 .header-title2{
@@ -1450,8 +1451,8 @@ position: relative;
 font-size: 44px;
 font-weight: bold;
 color: white;
-font-family: 'Cairo', sans-serif; /* ط®ط· ظ‚ط±ظٹط¨ ظ…ظ† ط§ظ„ظ„ظٹ ط¨ط§ظ„طµظˆط±ط© */
-text-align: right; /* ظٹط¬ط¹ظ„ ط§ظ„ظ†طµ ظپظٹ ط£ظ‚طµظ‰ ط§ظ„ظٹظ…ظٹظ† */
+font-family: 'Cairo', sans-serif; /* خط قريب من اللي بالصورة */
+text-align: right; /* يجعل النص في أقصى اليمين */
 line-height: 1.7;
 margin-left: 50%;
 margin-top: 60%;
@@ -1479,7 +1480,7 @@ margin-top: 60%;
 
 
 
-/* طھظ†ط³ظٹظ‚ ط§ظ„ظ‡ظٹط¯ط± */
+/* تنسيق الهيدر */
 .header {
     background-color: white;
     padding: 20px;
@@ -1492,7 +1493,7 @@ margin-top: 60%;
     font-family: 'Noto Sans Arabic', sans-serif;
 }
 
-/* طھظ†ط³ظٹظ‚ ط§ظ„ط¹ظ†ظˆط§ظ† ظˆط§ظ„ط®ط· */
+/* تنسيق العنوان والخط */
 .header-section {
     margin-top: 20px;
     text-align: center;
@@ -1518,7 +1519,7 @@ margin-top: 60%;
     margin-right: 100px;
 }
 
-/* طھظ†ط³ظٹظ‚ ط´ط¨ظƒط© ط§ظ„طµظˆط± ظˆط§ظ„ظپظٹط¯ظٹظˆ */
+/* تنسيق شبكة الصور والفيديو */
 .media-gallery {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -1527,7 +1528,7 @@ margin-top: 60%;
     margin: auto;
     margin-top: 300px;
 }
-/*ظ‡ط°ط§ ط§ظ„ظٹ ظٹط®ظ„ظٹظ‡ ط¨ظˆظƒط³ ظˆظ†ط§ ظ…ط§ط¨ظٹ 
+/*هذا الي يخليه بوكس ونا مابي 
 
 .media-item {
     background: white;
@@ -1538,15 +1539,15 @@ margin-top: 60%;
 */
 
 
-/* ط¬ط¹ظ„ ط§ظ„طµظˆط± ظˆط§ظ„ظپظٹط¯ظٹظˆظ‡ط§طھ ط¨ظ†ظپط³ ط§ظ„ط­ط¬ظ… */
+/* جعل الصور والفيديوهات بنفس الحجم */
 .media-item img, .media-item video {
     width: 100%;
-    height: 400px; /* ط¶ط¨ط· ط§ظ„ط§ط±طھظپط§ط¹ ظ„ظٹظƒظˆظ† ظ…ظ†ط§ط³ط¨ط§ظ‹ */
-    object-fit: cover; /* ظ„ط¬ط¹ظ„ ط§ظ„طµظˆط±ط© ظˆط§ظ„ظپظٹط¯ظٹظˆ ظٹط؛ط·ظٹط§ظ† ط§ظ„ط¹ظ†طµط± ط¨ط§ظ„ظƒط§ظ…ظ„ */
+    height: 400px; /* ضبط الارتفاع ليكون مناسباً */
+    object-fit: cover; /* لجعل الصورة والفيديو يغطيان العنصر بالكامل */
     border-radius: 0;
 }
 
-/* طھظ†ط³ظٹظ‚ ط§ظ„ظ†طµ طھط­طھ ظƒظ„ طµظˆط±ط© */
+/* تنسيق النص تحت كل صورة */
 .media-item p {
     font-size: 15px;
 margin-left: 260px;
@@ -1556,7 +1557,7 @@ margin-left: 260px;
  
 }
 
-/* ط²ط± طھط­ظ…ظٹظ„ ط§ظ„ظ…ط²ظٹط¯ */
+/* زر تحميل المزيد */
 .load-more-container {
     text-align: center;
     margin: 30px 0;
@@ -1619,17 +1620,17 @@ margin-right: 800px;
 .hero1-header {
     position: relative;
     width: 50%;
-    height: 800px; /* ظٹظ…ظƒظ†ظƒ طھط¹ط¯ظٹظ„ظ‡ ط­ط³ط¨ ط§ظ„ط­ط§ط¬ط© */
+    height: 800px; /* يمكنك تعديله حسب الحاجة */
     background: url('PHOTO-2025-02-18-10-39-17.jpg') no-repeat center center/cover;
     display: flex;
     align-items: center;
-    justify-content: flex-end; /* ظٹط¶ط¹ ط§ظ„ظ†طµ ط¹ظ„ظ‰ ط§ظ„ظٹظ…ظٹظ† */
-    padding-left: 50%; /* ظٹط¨ط¹ط¯ ط§ظ„ظ†طµ ط¹ظ† ط§ظ„ط­ط§ظپط© ط§ظ„ظٹظ…ظ†ظ‰ */
+    justify-content: flex-end; /* يضع النص على اليمين */
+    padding-left: 50%; /* يبعد النص عن الحافة اليمنى */
   filter: none;
  
 }
 
-/* ط·ط¨ظ‚ط© ط§ظ„ط´ظپط§ظپظٹط© ظپظˆظ‚ ط§ظ„طµظˆط±ط© */
+/* طبقة الشفافية فوق الصورة */
 .overlay1 {
     position: absolute;
     top: 0;
@@ -1647,7 +1648,7 @@ margin-right: 800px;
 
 /*test*/
 .news-ticker {
-    background-color: #f9edb2 ;  /* ظ„ظˆظ† ط£ط²ط±ظ‚ ط؛ط§ظ…ظ‚ */
+    background-color: #f9edb2 ;  /* لون أزرق غامق */
     color: rgb(0, 0, 0);
     padding: 10px;
     font-size: 1rem;
@@ -1711,8 +1712,8 @@ margin-right: 800px;
     display: flex;
     align-items: center;
     justify-content: center;
-    background: #d9b970; /* ظ„ظˆظ† ط§ظ„ط®ظ„ظپظٹط© ط§ظ„ظƒط­ظ„ظٹ */
-    border-radius: 20px; /* ظ„طھط¯ظˆظٹط± ط²ظˆط§ظٹط§ ط§ظ„ط¥ط·ط§ط± */
+    background: #d9b970; /* لون الخلفية الكحلي */
+    border-radius: 20px; /* لتدوير زوايا الإطار */
     padding: 40px;
     width: 90%;
     max-width: 1200px;
@@ -1727,7 +1728,7 @@ margin-right: 800px;
 .image-container img {
     width: 100%;
     height: auto;
-    border-radius: 15px; /* ط¬ط¹ظ„ ط²ظˆط§ظٹط§ ط§ظ„طµظˆط±ط© ظ†ط§ط¹ظ…ط© */
+    border-radius: 15px; /* جعل زوايا الصورة ناعمة */
 }
 
 .text-container {
@@ -1742,7 +1743,7 @@ margin-right: 800px;
 }
 
 .text-container h2 {
-    color: #0D0834; /* ظ„ظˆظ† ط§ظ„ط¹ظ†ظˆط§ظ† ط§ظ„ط£ط®ط¶ط± */
+    color: #0D0834; /* لون العنوان الأخضر */
     font-size: 22px;
 }
 
@@ -1754,7 +1755,7 @@ margin-right: 800px;
 
 .check-icon {
     font-size: 24px;
-    color: #0D0834; /* ظ„ظˆظ† ط§ظ„ط£ظٹظ‚ظˆظ†ط© */
+    color: #0D0834; /* لون الأيقونة */
     margin-top: 10px;
     display: inline-block;
 }
@@ -1766,7 +1767,7 @@ margin-right: 800px;
 
 /*test whit better*/
 
-/* ظ†ظ…ظˆط°ط¬ ط§ظ„ط§طھطµط§ظ„ */
+/* نموذج الاتصال */
 .form-section {
     display: flex;
     justify-content: space-between;
@@ -1789,7 +1790,7 @@ margin-right: 800px;
     width: 500px;
     padding: 18px;
     border: none;
-    border-radius: 30px; /* ط­ظˆط§ظپ ظ…ط³طھط¯ظٹط±ط© */
+    border-radius: 30px; /* حواف مستديرة */
     background: #f3e5ab;
     margin-top: 20px;
     margin-right:120px ;
@@ -1797,7 +1798,7 @@ margin-right: 800px;
 
 .full-width {
     width: 1166px;
-    border-radius: 25px; /* ط¬ط¹ظ„ ط§ظ„ط§ط³ظ… ظ…طھط³ط§ظˆظچ ظ…ط¹ ط¹ط±ط¶ ط§ظ„طµظپ ط§ظ„ط£ظˆظ„ */
+    border-radius: 25px; /* جعل الاسم متساوٍ مع عرض الصف الأول */
     margin-right:120px ;
 
 }
@@ -1807,7 +1808,7 @@ margin-right: 800px;
     height: 140px;
     padding: 25px;
     border: none;
-    border-radius: 25px; /* ط§ظ„ط±ط³ط§ظ„ط© ط¨ط­ظˆط§ظپ ط£ظ‚ظ„ ط§ط³طھط¯ط§ط±ط© */
+    border-radius: 25px; /* الرسالة بحواف أقل استدارة */
     background: #f6eabe ;
     margin-top: 40px;
 
@@ -1827,7 +1828,7 @@ margin-right: 800px;
 
 }
 
-/* ظ†ظ…ظˆط°ط¬ ط§ظ„ظ†ط´ط±ط© ط§ظ„ط¨ط±ظٹط¯ظٹط© */
+/* نموذج النشرة البريدية */
 .newsletter-container {
     background: #709a8c;
     color: white;
@@ -1856,7 +1857,7 @@ margin-right: 800px;
     cursor: pointer;
 }
 
-/* ظ…ط¹ظ„ظˆظ…ط§طھ ط§ظ„طھظˆط§طµظ„ */
+/* معلومات التواصل */
 .info-section {
     display: flex;
     justify-content: center;
@@ -1864,7 +1865,7 @@ margin-right: 800px;
     margin-bottom: 40px;
 }
 
-/* طھظ†ط³ظٹظ‚ ظƒظ„ ط¨ط·ط§ظ‚ط© */
+/* تنسيق كل بطاقة */
 .info-card {
     background: #c4dcd7;
     padding: 20px;
@@ -1872,37 +1873,37 @@ margin-right: 800px;
     flex: 1;
     max-width: 300px;
     text-align: center;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* ط¥ط¶ط§ظپط© ط§ظ„ط¸ظ„ */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* إضافة الظل */
 }
 
-/* ط§ظ„ط¨ط·ط§ظ‚ط© ط§ظ„ط¨ظٹط¶ط§ط، */
+/* البطاقة البيضاء */
 .info-card.white-card {
     background: white;
     border: 1px solid #ddd;
 }
 
-/* طھط±طھظٹط¨ ط§ظ„ظ…ط­طھظˆظ‰ ط§ظ„ط¯ط§ط®ظ„ظٹ */
+/* ترتيب المحتوى الداخلي */
 .info-title {
     font-size: 18px;
     font-weight: 600;
     color: #2c2c2c;
 }
 
-/* طھظ†ط³ظٹظ‚ ط§ظ„ظ†طµ */
+/* تنسيق النص */
 .info-text {
     font-size: 14px;
     color: #555;
     line-height: 1.6;
 }
 
-/* طھظƒط¨ظٹط± ط§ظ„ظ„ظˆط¬ظˆ */
+/* تكبير اللوجو */
 .info-logo {
-    width: 80px; /* طھظƒط¨ظٹط± ط§ظ„ظ„ظˆط¬ظˆ */
+    width: 80px; /* تكبير اللوجو */
     height: 80px;
    
 }
 
-/* ط®ط±ظٹط·ط© */
+/* خريطة */
 .map-section {
     width: 100%;
     border-radius: 40px;
@@ -1939,16 +1940,16 @@ margin-right: 800px;
 
 
 
-/* ظ‚ط³ظ… ط§ظ„ظ…ظٹط²ط§طھ ط¨ط£ظ‚طµظ‰ ط§ظ„ظٹط³ط§ط± */
+/* قسم الميزات بأقصى اليسار */
 .left-feature-section {
-    max-width: 500px; /* ظ„ط¶ط¨ط· ط¹ط±ط¶ ط§ظ„ظ…ط­طھظˆظ‰ */
+    max-width: 500px; /* لضبط عرض المحتوى */
     text-align: left;
-    direction: ltr; /* ط¥ط¨ظ‚ط§ط، ط§ظ„ظ†طµ ط¨ظ…ط­ط§ط°ط§ط© ظٹط³ط§ط±ظٹط© */
+    direction: ltr; /* إبقاء النص بمحاذاة يسارية */
     margin-right: 900px;
     margin-top: 40px;
 }
 
-/* ط¹ظ†ظˆط§ظ† ط§ظ„ظ‚ط³ظ… */
+/* عنوان القسم */
 .feature-title {
     font-size: 24px;
     font-weight: bold;
@@ -1961,7 +1962,7 @@ margin-right: 800px;
     font-weight: bold;
 }
 
-/* ط¹ظ†طµط± ظƒظ„ ظ…ظٹط²ط© */
+/* عنصر كل ميزة */
 .feature-item {
     display: flex;
     align-items: center;
@@ -1969,7 +1970,7 @@ margin-right: 800px;
     margin-bottom: 15px;
 }
 
-/* ط§ظ„ط¯ط§ط¦ط±ط© ط­ظˆظ„ ط¹ظ„ط§ظ…ط© ط§ظ„طµط­ */
+/* الدائرة حول علامة الصح */
 .feature-circle {
     width: 50px;
     height: 50px;
@@ -1984,7 +1985,7 @@ margin-right: 800px;
     color: #e1ad21;
 }
 
-/* ط§ظ„ظ†طµ ط¨ط¬ظˆط§ط± ط§ظ„ط£ظٹظ‚ظˆظ†ط© */
+/* النص بجوار الأيقونة */
 .feature-text {
     font-size: 16px;
     color: #555;
@@ -1996,14 +1997,14 @@ margin-right: 800px;
 
 
 
-/* ط§ظ„ط¹ظ†ظˆط§ظ† ط§ظ„ط±ط¦ظٹط³ظٹ */
+/* العنوان الرئيسي */
 .why-choose-title {
     text-align: center;
     margin-bottom: 40px;
 }
 
 
-/* ط§ظ„ط¹ظ†ظˆط§ظ† ط§ظ„ط±ط¦ظٹط³ظٹ */
+/* العنوان الرئيسي */
 .why-choose-section{
     background-color: rgb(248, 248, 248);
  padding: 80px;
@@ -2040,7 +2041,7 @@ margin-right: 800px;
     margin-top: 10px;
 }
 
-/* ط§ظ„ط´ط¨ظƒط© */
+/* الشبكة */
 .choose-grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -2049,12 +2050,12 @@ margin-right: 800px;
     margin: auto;
 }
 
-/* ط¹ظ†طµط± ط§ظ„ط´ط¨ظƒط© */
+/* عنصر الشبكة */
 .choose-item {
     text-align: center;
 }
 
-/* ط§ظ„ط¯ط§ط¦ط±ط© ط­ظˆظ„ ط§ظ„طµظˆط±ط© */
+/* الدائرة حول الصورة 
 .choose-icon {
     width: 80px;
     height: 80px;
@@ -2069,36 +2070,41 @@ margin-right: 800px;
 
 }
 
-/* ط£ظٹظ‚ظˆظ†ط© ظ…ظ…ظٹط²ط© */
+*/
+
+/* أيقونة مميزة 
 .choose-icon.highlighted {
     background: #ffffff;
 }
+*/
 
-/* ط§ظ„طµظˆط± ط¯ط§ط®ظ„ ط§ظ„ط¯ظˆط§ط¦ط± */
+
+
+/* الصور داخل الدوائر */
 .choose-icon img {
-    width: 130px;
-    height: 130px;
+    width: 90px;
+    height: 90px;
     object-fit: cover;
 }
 
 
 #choose-icon1 img{
-    width: 110px;
-    height: 110px;
+    width: 80px;
+    height: 80px;
     object-fit: cover;
 }
 
 
 
 
-/* ط§ظ„ط¹ظ†ط§ظˆظٹظ† */
+/* العناوين */
 .choose-item h3 {
     font-size: 18px;
     font-weight: bold;
     margin-top: 15px;
 }
 
-/* ط§ظ„ظ†طµظˆطµ */
+/* النصوص */
 .choose-item p {
     font-size: 14px;
     color: #777;
@@ -2142,7 +2148,7 @@ font-family: 'Amiri', serif;
 
 
 font-weight: bold !important;
-font-size: 28px  !important;
+font-size: 15px  !important;
 }
 
 
@@ -2233,27 +2239,27 @@ font-weight: bold;
 
 
 
-  /*ظ‡ط¯ظپظ†ط§ 2 */
+  /*هدفنا 2 */
 
 
-/* طھظ†ط³ظٹظ‚ ط§ظ„ظ‚ط³ظ… ط§ظ„ط¹ط§ظ… */
+/* تنسيق القسم العام */
 
 .goal-section2 {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 800px; /* ظٹظ…ظƒظ†ظƒ طھط¹ط¯ظٹظ„ظ‡ ط­ط³ط¨ ط§ظ„ط­ط§ط¬ط© */
+    height: 800px; /* يمكنك تعديله حسب الحاجة */
     background: url('') no-repeat center center/cover;
     position: relative;
    
 }
 
-/* ط§ظ„طµظ†ط¯ظˆظ‚ ط§ظ„ط¨ظ†ظپط³ط¬ظٹ */
+/* الصندوق البنفسجي */
 .goal-box2 {
-    background: rgba(12, 36, 154, 0.362); /* ظ„ظˆظ† ط¨ظ†ظپط³ط¬ظٹ ظ…ط¹ ط´ظپط§ظپظٹط© */
+    background: rgba(12, 36, 154, 0.362); /* لون بنفسجي مع شفافية */
     padding: 60px;
-    border-radius: 40px; /* ط²ظˆط§ظٹط§ ط¯ط§ط¦ط±ظٹط© */
-    max-width: 500px; /* ط¹ط±ط¶ ظ…ظ†ط§ط³ط¨ */
+    border-radius: 40px; /* زوايا دائرية */
+    max-width: 500px; /* عرض مناسب */
     text-align: center;
     color: white;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
@@ -2271,7 +2277,7 @@ font-weight: bold;
     box-shadow: 0 8px 20px rgba(0,0,0,0.3);
 }
 
-/* طھظ†ط³ظٹظ‚ ط§ظ„ط¹ظ†ظˆط§ظ† */
+/* تنسيق العنوان */
 .goal-title2 {
     font-size: 28px;
     font-weight: bold;
@@ -2283,7 +2289,7 @@ font-weight: bold;
 
 }
 
-/* طھظ†ط³ظٹظ‚ ط§ظ„ظ†طµ */
+/* تنسيق النص */
 .goal-text2 {
     font-size: 18px;
     line-height: 1.6;
@@ -2293,27 +2299,27 @@ font-weight: bold;
 
 
 
-/*ظ‡ط¯ظپظ†ط§ 3 */
+/*هدفنا 3 */
 
 
-/* طھظ†ط³ظٹظ‚ ط§ظ„ظ‚ط³ظ… ط§ظ„ط¹ط§ظ… */
+/* تنسيق القسم العام */
 
 .goal-section3 {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 800px; /* ظٹظ…ظƒظ†ظƒ طھط¹ط¯ظٹظ„ظ‡ ط­ط³ط¨ ط§ظ„ط­ط§ط¬ط© */
+    height: 800px; /* يمكنك تعديله حسب الحاجة */
     background: url('') no-repeat center center/cover;
     position: relative;
    
 }
 
-/* ط§ظ„طµظ†ط¯ظˆظ‚ ط§ظ„ط¨ظ†ظپط³ط¬ظٹ */
+/* الصندوق البنفسجي */
 .goal-box3 {
-    background: rgba(255, 255, 255, 0.374); /* ظ„ظˆظ† ط¨ظ†ظپط³ط¬ظٹ ظ…ط¹ ط´ظپط§ظپظٹط© */
+    background: rgba(255, 255, 255, 0.374); /* لون بنفسجي مع شفافية */
     padding: 60px;
-    border-radius: 40px; /* ط²ظˆط§ظٹط§ ط¯ط§ط¦ط±ظٹط© */
-    max-width: 500px; /* ط¹ط±ط¶ ظ…ظ†ط§ط³ط¨ */
+    border-radius: 40px; /* زوايا دائرية */
+    max-width: 500px; /* عرض مناسب */
     text-align: center;
     color: white;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
@@ -2331,7 +2337,7 @@ margin-bottom: 1200px ;
     box-shadow: 0 8px 20px rgba(0,0,0,0.3);
 }
 
-/* طھظ†ط³ظٹظ‚ ط§ظ„ط¹ظ†ظˆط§ظ† */
+/* تنسيق العنوان */
 .goal-title3 {
     font-size: 28px;
     font-weight: bold;
@@ -2343,7 +2349,7 @@ margin-bottom: 1200px ;
 
 }
 
-/* طھظ†ط³ظٹظ‚ ط§ظ„ظ†طµ */
+/* تنسيق النص */
 .goal-text3 {
     font-size: 18px;
     line-height: 1.6;
@@ -2352,60 +2358,59 @@ margin-bottom: 1200px ;
 
 
 @media (max-width: 768px) {
-    * {
-        box-sizing: border-box;
-    }
 
+    /* يمنع الانزلاق يمين ويسار */
     html, body {
         overflow-x: hidden;
-        margin: 0;
         padding: 0;
+        margin: 0;
     }
 
+    /* تضبيط القائمة */
     nav ul {
         flex-direction: column;
         align-items: center;
-        margin-right: 0;
+        margin: 0;
+        padding: 0;
         gap: 15px;
     }
 
     nav ul li {
+        margin: 10px 0;
+        text-align: center;
+    }
+
+    /* تصغير الشعار وتثبيته */
+    .transparent-banner img {
+        position: static !important;
+        width: 180px !important;
+        margin: 10px auto;
         display: block;
     }
 
     .logo {
+        margin-left: 0 !important;
         width: 180px !important;
-        margin: auto !important;
+        display: block;
     }
 
-    .transparent-banner {
-        height: auto;
-        padding: 10px;
-    }
-
-    h1, h2, h3 {
+    /* تنسيق العناوين */
+    .header-title, .header-title2, .section-title, h1, h2, h3, p {
         font-size: 20px !important;
         text-align: center !important;
+        margin: 0 auto;
     }
 
-    p {
-        font-size: 16px !important;
-        text-align: center !important;
-    }
-
-    .section-title {
-        font-size: 22px !important;
-        margin: 0 auto !important;
-        text-align: center !important;
-    }
-
-    /* ط£ظ‡ظ… ظ†ظ‚ط·ط©: ظƒظ„ ط§ظ„ط¨ظˆظƒط³ط§طھ طھطµط؛ط± ظˆظ…ط§ طھط·ظ„ط¹ ظ…ظ† ط§ظ„ط´ط§ط´ط© */
-    .box, .goal-box, .goal-box2, .goal-box3, .club-card, .course-card, .workshop-card, .about, .strategies, .training-paths, .courses-section, .clubs-section, .faq-section {
+    /* تصغير حجم البوكسات */
+    .about, .paths, .choose-grid, .bottom-row-nady,
+    .goal-box, .goal-box2, .goal-box3,
+    .box, .course-card, .workshop-card, .photo-card, .club-card {
         width: 95% !important;
         margin: 15px auto !important;
         text-align: center;
     }
 
+    /* الهيدر والصور */
     .hero-header, .hero1-header {
         width: 100% !important;
         height: auto !important;
@@ -2413,159 +2418,50 @@ margin-bottom: 1200px ;
         background-position: center !important;
     }
 
-    .photo-card {
+    /* ضبط الفورم */
+    .contact-form {
         width: 95% !important;
+        padding: 20px !important;
         margin: 20px auto !important;
     }
 
-    /* ط£ظٹ div ظپظٹظ‡ ظ…ط´ط§ظƒظ„ ظٹط¬ط¨ط± ظٹط¯ط®ظ„ ط§ظ„ط´ط§ط´ط© */
-    div, section {
-        max-width: 100% !important;
+    .form-group input, .form-group textarea {
+        width: 100% !important;
+        font-size: 16px;
     }
-}
 
-/* === Responsive Styles for Mobile Screens === */
-@media (max-width: 768px) {
-  body {
-    overflow-x: hidden;
-  }
+    .send-btn {
+        width: 100% !important;
+        font-size: 18px !important;
+    }
 
-  header.main-header,
-  .transparent-banner,
-  .hero1-header,
-  .overlay1,
-  .header-title1 {
-    text-align: center;
-    padding: 10px;
-  }
+    /* تصغير خانات النوادي */
+    .box-nady {
+        width: 95% !important;
+        padding: 30px !important;
+    }
 
-  .logo {
-    max-width: 120px;
-    height: auto;
-  }
+    /* تصغير البطاقات */
+    .workshops-wrapper, .courses-wrapper {
+        gap: 10px;
+        padding: 10px;
+    }
 
-  nav#wh ul {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 0;
-    gap: 10px;
-  }
+    .workshop-card, .course-card, .photo-card {
+        min-width: 90% !important;
+        max-width: 90% !important;
+        margin: auto;
+    }
 
-  .section-boxes,
-  .training-paths,
-  .program-boxes,
-  .clubs-grid,
-  .contact-form {
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-    align-items: center;
-  }
+    /* خرائط */
+    .map-container iframe {
+        height: 300px;
+    }
 
-  .form-input,
-  .form-textarea {
-    width: 90% !important;
-  }
+    /* تصغير كروت التواصل */
+    .info-card {
+        max-width: 90% !important;
+        margin: 10px auto;
+    }
 
-  .box,
-  .card,
-  .faq-box,
-  .social-box {
-    width: 90% !important;
-  }
-
-  .hero1-header img,
-  .transparent-banner img {
-    width: 100%;
-    height: auto;
-  }
-
-  .fixed-logo {
-    position: fixed;
-    top: 10px;
-    right: 10px;
-    z-index: 999;
-    width: 80px;
-  }
-}
-
-
-
-
-
-
-
-
-
-/* ==== Mobile Specific Styles ==== */
-@media screen and (max-width: 768px) {
-
-  body {
-    overflow-x: hidden;
-  }
-
-  header.main-header,
-  .transparent-banner,
-  .hero1-header,
-  .overlay1,
-  .header-title1 {
-    text-align: center;
-    padding: 10px;
-  }
-
-  .logo {
-    max-width: 120px;
-    height: auto;
-  }
-
-  nav#wh ul {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 0;
-    gap: 10px;
-  }
-
-  .section-boxes,
-  .training-paths,
-  .program-boxes,
-  .clubs-grid,
-  .contact-form {
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-    align-items: center;
-  }
-
-  .form-input,
-  .form-textarea {
-    width: 90% !important;
-  }
-
-  .box,
-  .card,
-  .faq-box,
-  .social-box {
-    width: 90% !important;
-  }
-
-  .hero1-header img,
-  .transparent-banner img {
-    width: 100%;
-    height: auto;
-  }
-
-  .fixed-logo {
-    position: fixed;
-    top: 10px;
-    right: 10px;
-    z-index: 999;
-    width: 80px;
-  }
-
-  footer {
-    padding: 30px 10px;
-    text-align: center;
-  }
 }
