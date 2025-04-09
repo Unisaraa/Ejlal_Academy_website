@@ -2357,113 +2357,68 @@ margin-bottom: 1200px ;
 
 
 
-@media only screen and (max-width: 900px) {
+@media screen and (max-width: 768px) {
+  body, html {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    width: 100%;
+  }
 
-    /* يمنع الانزلاق يمين ويسار */
-    html, body {
-        overflow-x: hidden;
-        padding: 0;
-        margin: 0;
-    }
+  .main-header,
+  .transparent-banner {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9999;
+    background: rgba(0, 0, 0, 0.5);
+  }
 
-    /* تضبيط القائمة 
-    nav ul {
-        flex-direction: column;
-        align-items: center;
-        margin: 0;
-        padding: 0;
-        gap: 15px;
-    }
-*/
-    nav ul li {
-        margin: 10px 0;
-        text-align: center;
-    }
+  .transparent-banner img,
+  .logo {
+    width: 120px !important;
+    margin: 10px auto;
+    display: block;
+  }
 
-    /* تصغير الشعار وتثبيته
-    .transparent-banner img {
-        position: static !important;
-        width: 180px !important;
-        margin: 10px auto;
-        display: block;
-    }
- */
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
 
-    /*
-    .logo {
-        margin-left: 0 !important;
-        width: 180px !important;
-        display: block;
-    }
-*/
-    /* تنسيق العناوين */
-    .header-title, .header-title2, .section-title, h1, h2, h3, p {
-        font-size: 20px !important;
-        text-align: center !important;
-        margin: 0 auto;
-    }
+  .hero-header,
+  .hero1-header {
+    margin-top: 120px !important;
+    height: auto !important;
+    background-size: cover !important;
+  }
 
-    /* تصغير حجم البوكسات */
-    .about, .paths, .choose-grid, .bottom-row-nady,
-    .goal-box, .goal-box2, .goal-box3,
-    .box, .course-card, .workshop-card, .photo-card, .club-card {
-        width: 95% !important;
-        margin: 15px auto !important;
-        text-align: center;
-    }
+  .header-title, .header-title2 {
+    font-size: 24px !important;
+    margin: 20px auto;
+    padding: 10px;
+    text-align: center;
+  }
 
-    /* الهيدر والصور */
-    .hero-header, .hero1-header {
-        width: 100% !important;
-        height: auto !important;
-        background-size: cover !important;
-        background-position: center !important;
-    }
+  .box, .card, .faq-box, .social-box, .workshop-card, .course-card, .club-card {
+    width: 90% !important;
+    margin: 15px auto;
+  }
 
-    /* ضبط الفورم */
-    .contact-form {
-        width: 95% !important;
-        padding: 20px !important;
-        margin: 20px auto !important;
-    }
+  .contact-form, .form-input, .form-textarea {
+    width: 95% !important;
+    padding: 15px;
+    font-size: 16px;
+  }
 
-    .form-group input, .form-group textarea {
-        width: 100% !important;
-        font-size: 16px;
-    }
+  footer {
+    padding: 40px 20px;
+    font-size: 14px;
+  }
 
-    .send-btn {
-        width: 100% !important;
-        font-size: 18px !important;
-    }
-
-    /* تصغير خانات النوادي */
-    .box-nady {
-        width: 95% !important;
-        padding: 30px !important;
-    }
-
-    /* تصغير البطاقات */
-    .workshops-wrapper, .courses-wrapper {
-        gap: 10px;
-        padding: 10px;
-    }
-
-    .workshop-card, .course-card, .photo-card {
-        min-width: 90% !important;
-        max-width: 90% !important;
-        margin: auto;
-    }
-
-    /* خرائط */
-    .map-container iframe {
-        height: 300px;
-    }
-
-    /* تصغير كروت التواصل */
-    .info-card {
-        max-width: 90% !important;
-        margin: 10px auto;
-    }
-
+  .map-container iframe {
+    width: 100% !important;
+    height: 300px !important;
+  }
 }
