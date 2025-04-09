@@ -2380,20 +2380,22 @@ margin-bottom: 1200px ;
         text-align: center;
     }
 
-    /* تصغير الشعار وتثبيته */
+    /* تصغير الشعار وتثبيته
     .transparent-banner img {
         position: static !important;
         width: 180px !important;
         margin: 10px auto;
         display: block;
     }
+ */
 
+    /*
     .logo {
         margin-left: 0 !important;
         width: 180px !important;
         display: block;
     }
-
+*/
     /* تنسيق العناوين */
     .header-title, .header-title2, .section-title, h1, h2, h3, p {
         font-size: 20px !important;
