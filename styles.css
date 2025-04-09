@@ -2366,7 +2366,7 @@ margin-bottom: 1200px ;
         margin: 0;
     }
 
-    /* تضبيط القائمة */
+    /* تضبيط القائمة 
     nav ul {
         flex-direction: column;
         align-items: center;
@@ -2374,7 +2374,7 @@ margin-bottom: 1200px ;
         padding: 0;
         gap: 15px;
     }
-
+*/
     nav ul li {
         margin: 10px 0;
         text-align: center;
