@@ -1,19 +1,23 @@
 <!DOCTYPE html>
 <html lang="ar">
 <head>
-     <title>أكاديمية إجلال للتدريب</title>
-     <link rel="icon" href="IMG_0522-removebg-preview.png">
-         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+
 
     <meta charset="UTF-8">
-     <mata thhp-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <link rel="icon" href="IMG_0522-removebg-preview.png"
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   
+    <title>أكاديمية إجلال للتدريب</title>
     <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Arabic:wght@300;400;700&display=swap" rel="stylesheet">
 </head>
-<body "relative m-0 font-sans text-base antialiased font-normal leading-default overscroll-none" x-data="mainMasterData"> >
+<body>
 
     <!-- الهيدر -->
 
@@ -461,7 +465,7 @@
 </main>
 
 <hr>
-  
+  <!--
 <section class="section-nady-layout">
     <div class="top-row-nady">
       <div class="boxes-top">
@@ -483,8 +487,39 @@
     </div>
   </section>
   
+-->
   
+
+
+<section class="clubs-section">
+    <h2 class="section-title">المسؤولية المجتمعية</h2>
+    <p class="section-description"> نهتم بإقامة مجموعة من النوادي والفعاليات في كثير من المجالات لرفع مستوى الوعي المجتمعي وجودة الحياة، والمساعدة على تحقيق الطموحات.
+    </p>
+    <div class="clubs-grid">
+      <div class="club-box">نادي العربية</div>
+      <div class="club-box">نادي اللغة الإنجليزية</div>
+      <div class="club-box">نادي رواد المستقبل</div>
+      <div class="club-box">نادي الحرفة</div>
+      <div class="club-box">برنامج التدريب التعاوني</div>
+      <div class="club-box">النادي الإسباني</div>
+      <div class="club-box">نادي مؤثرون</div>
+    </div>
+  </section>
   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <!--الدورات-->
 
 <!--نسخه محدثه من البرامج خذته-->
@@ -896,6 +931,11 @@
    
     
         <!-- نموذج الاتصال -->
+        <div class="title-container">
+            <div class="line"></div>
+       <h1 id="forp">  تواصل معنا للتسجيل والاستفسارات</h1>
+            <div class="line"></div>
+        </div>
      
         <section class="form-section" id="contact">
             <form action="/Ejlal_Academy/ejlal.php" method="POST">
@@ -903,9 +943,12 @@
                     <div class="form-row">
                      
                         <input type="text" placeholder="Email" class="input-box rounded" name="email">
-                        <input type="text" placeholder="Phone" class="input-box rounded" name="phone">
                     </div>
+                        <input type="text" placeholder="Phone" class="input-box rounded" name="phone">
+                  
+                 
                     <input type="text" placeholder="Name" class="input-box full-width" name="name">
+              
                     <textarea placeholder="Message" class="textarea-box" name="message"></textarea>
                     <button class="submit-btn">Submit Button</button>
                 </div>
@@ -1089,14 +1132,19 @@ document.addEventListener("DOMContentLoaded", function () {
     const prevBtn = document.getElementById("prevBtn");
     const nextBtn = document.getElementById("nextBtn");
 
-    prevBtn.addEventListener("click", () => {
-        coursesWrapper.scrollBy({ left: -300, behavior: "smooth" });
-    });
+    if (prevBtn && coursesWrapper) {
+        prevBtn.addEventListener("click", () => {
+            coursesWrapper.scrollBy({ left: -300, behavior: "smooth" });
+        });
+    }
 
-    nextBtn.addEventListener("click", () => {
-        coursesWrapper.scrollBy({ left: 300, behavior: "smooth" });
-    });
+    if (nextBtn && coursesWrapper) {
+        nextBtn.addEventListener("click", () => {
+            coursesWrapper.scrollBy({ left: 300, behavior: "smooth" });
+        });
+    }
 });
+
 
 
 
@@ -1107,23 +1155,38 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 <script>
-  document.addEventListener("DOMContentLoaded", function () {
-    const workshopsWrapper = document.querySelector(".workshops-wrapper");
-    const prevBtn = document.getElementById("prevBtn");
+
+document.addEventListener("DOMContentLoaded", function () {
     const nextBtn = document.getElementById("nextBtn");
+    const prevBtn = document.getElementById("prevBtn");
+    const workshopsWrapper = document.getElementById("workshopsWrapper");
 
-    prevBtn.addEventListener("click", () => {
-        workshopsWrapper.scrollBy({ left: -300, behavior: "smooth" });
-    });
+    if (nextBtn && workshopsWrapper) {
+        nextBtn.addEventListener("click", () => {
+            workshopsWrapper.scrollBy({ left: 300, behavior: "smooth" });
+        });
+    }
 
-    nextBtn.addEventListener("click", () => {
-        workshopsWrapper.scrollBy({ left: 300, behavior: "smooth" });
-    });
+    if (prevBtn && workshopsWrapper) {
+        prevBtn.addEventListener("click", () => {
+            workshopsWrapper.scrollBy({ left: -300, behavior: "smooth" });
+        });
+    }
 });
+</script>
 
 
 
 
+
+
+
+
+
+
+
+
+<script>
 
 
 document.querySelectorAll(".workshop-btn closed").forEach(button => {
