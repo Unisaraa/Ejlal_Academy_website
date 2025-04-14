@@ -1,6 +1,15 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&family=Tajawal:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Arabic:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Kufi+Arabic:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lalezar&display=swap');
+/*الخطوط*/
+
+
+
+
+/*
 
 body {
     font-family: 'Cairo', sans-serif;
@@ -9,32 +18,24 @@ body {
     font-family: 'Noto Sans Arabic', sans-serif;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Noto+Kufi+Arabic:wght@400;700&display=swap');
 
 body {
     font-family: 'Noto Kufi Arabic', sans-serif;
 }
 
-
-
-@import url('https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&display=swap');
-
 body {
     font-family: 'Amiri', serif;
 }
-
-
-@import url('https://fonts.googleapis.com/css2?family=Lalezar&display=swap');
 
 body {
     font-family: 'Lalezar', cursive;
 }
 
-
-
 body {
     font-family: "Tajawal", sans-serif;
 }
+
+*/
 
 /* تحديد الخطوط الافتراضية */
 
@@ -307,14 +308,17 @@ transform: scale(1.7);
 }
 
 
-.ttw{
-   font-size: 30px;
-        font-weight: bold;
-        background: linear-gradient( #3f26ff, #ffffff, #432bff);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-      
-}
+.ttw {
+    font-size: 30px;
+    font-weight: bold;
+    background: linear-gradient(#3f26ff, #ffffff, #432bff);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    margin-left: 19px;
+  }
+  
 
 
 /* تنسيق النصوص في الفوتر 
@@ -365,11 +369,14 @@ footer a:hover {
 .about {
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 10px;
     padding: 40px;
     text-align: center;
     width: 90%;
     margin-bottom: 40px;
+
+
+
 }
 
 .box {
@@ -723,7 +730,7 @@ margin-top: 60px;
     width: 100%;
     height: 100%;
     filter: none;
-  
+
 }
 
 /* تنسيق النص */
@@ -736,6 +743,7 @@ margin-top: 60px;
     text-align: right; /* يجعل النص في أقصى اليمين */
     line-height: 1.9;
     margin-left: 40%;
+
     
    
 }
@@ -1176,7 +1184,8 @@ margin-right: 20px;
 /*mab*/
 .map-section {
     text-align: center;
-    padding: 50px 20px;
+   
+
 
 }
 
@@ -1208,9 +1217,10 @@ margin-right: 20px;
 .map-container {
     width: 100%;
     margin: auto;
-    border-radius: 10px;
+    border-radius: 40px;
     overflow: hidden;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 80px;
 }
 
 
@@ -1300,11 +1310,11 @@ white-space: normal;
     font-family: "Tajawal", sans-serif;
 word-wrap: break-word;
 white-space: normal;
-line-height: 1.5;
-font-size: 20px;
+line-height: 1.2;
 
 
-border-radius: 5px;
+margin-left: 25px;
+
   }
 
   .workshop-info{
@@ -1772,6 +1782,29 @@ margin-right: 800px;
     display: flex;
     justify-content: space-between;
     margin-bottom: 40px;
+
+
+
+
+
+
+
+
+
+
+
+    background: rgba(121, 120, 120, 0.362); /* لون بنفسجي مع شفافية */
+    padding: 20px;
+    border-radius: 40px; /* زوايا دائرية */
+   
+    text-align: center;
+   
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+
+ 
 }
 
 .form-container {
@@ -1787,33 +1820,38 @@ margin-right: 800px;
 }
 
 .input-box {
-    width: 500px;
+    width: 200px;
     padding: 18px;
     border: none;
     border-radius: 30px; /* حواف مستديرة */
     background: #f3e5ab;
-    margin-top: 20px;
-    margin-right:120px ;
+  margin-left: 1200px;
+  margin-top: 40px;
+
+  
+
 }
 
 .full-width {
-    width: 1166px;
+    width: 200px;
     border-radius: 25px; /* جعل الاسم متساوٍ مع عرض الصف الأول */
-    margin-right:120px ;
+
+    margin-left: 600%;
+ 
 
 }
 
 .textarea-box {
-    width: 1150px;
+    width: 200px;
     height: 140px;
     padding: 25px;
     border: none;
     border-radius: 25px; /* الرسالة بحواف أقل استدارة */
     background: #f6eabe ;
     margin-top: 40px;
+    margin-left: 600%;
 
-
-    margin-right:120px ;
+ 
 }
 
 .submit-btn {
@@ -1824,7 +1862,7 @@ margin-right: 800px;
     border: none;
     border-radius: 30px;
     cursor: pointer;
-    margin-right: 124px;
+    margin-left: 600%;
 
 }
 
@@ -1868,11 +1906,11 @@ margin-right: 800px;
 /* تنسيق كل بطاقة */
 .info-card {
     background: #c4dcd7;
-    padding: 20px;
+
     border-radius: 15px;
     flex: 1;
-    max-width: 300px;
-    text-align: center;
+    max-width: 200px;
+
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* إضافة الظل */
 }
 
@@ -1884,9 +1922,9 @@ margin-right: 800px;
 
 /* ترتيب المحتوى الداخلي */
 .info-title {
-    font-size: 18px;
+    font-size: 10px;
     font-weight: 600;
-    color: #2c2c2c;
+ color: #0D0834;
 }
 
 /* تنسيق النص */
@@ -2007,7 +2045,7 @@ margin-right: 800px;
 /* العنوان الرئيسي */
 .why-choose-section{
     background-color: rgb(248, 248, 248);
- padding: 80px;
+ padding: 1px;
  margin-top: 260px;
 
 
@@ -2045,7 +2083,7 @@ margin-right: 800px;
 .choose-grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 40px;
+    gap: 20px;
     max-width: 1000px;
     margin: auto;
 }
@@ -2357,68 +2395,134 @@ margin-bottom: 1200px ;
 
 
 
-@media screen and (max-width: 768px) {
-  body, html {
-    margin: 0;
-    padding: 0;
-    overflow-x: hidden;
-    width: 100%;
-  }
+@media only screen and (max-width: 900px) {
 
-  .main-header,
-  .transparent-banner {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 9999;
-    background: rgba(0, 0, 0, 0.5);
-  }
+    /* يمنع الانزلاق يمين ويسار */
+    html, body {
+        overflow-x: hidden;
+        padding: 0;
+        margin: 0;
+    }
 
-  .transparent-banner img,
-  .logo {
-    width: 120px !important;
-    margin: 10px auto;
-    display: block;
-  }
+    /* تضبيط القائمة */
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+        gap: 15px;
+    }
 
-  nav ul {
-    flex-direction: column;
-    align-items: center;
-    gap: 10px;
-  }
+    nav ul li {
+        margin: 10px 0;
+        text-align: center;
+    }
 
-  .hero-header,
-  .hero1-header {
-    margin-top: 120px !important;
-    height: auto !important;
-    background-size: cover !important;
-  }
+    /* تصغير الشعار وتثبيته */
+    .transparent-banner img {
+        position: static !important;
+        width: 180px !important;
+        margin: 10px auto;
+        display: block;
+    }
 
-  .header-title, .header-title2 {
-    font-size: 24px !important;
-    margin: 20px auto;
-    padding: 10px;
-    text-align: center;
-  }
+    .logo {
+        margin-left: 0 !important;
+        width: 180px !important;
+        display: block;
+    }
 
-  .box, .card, .faq-box, .social-box, .workshop-card, .course-card, .club-card {
-    width: 90% !important;
-    margin: 15px auto;
-  }
+    /* تنسيق العناوين */
+    .header-title, .header-title2, .section-title, h1, h2, h3, p {
+        font-size: 20px !important;
+        text-align: center !important;
+        margin: 0 auto;
+    }
 
-  .contact-form, .form-input, .form-textarea {
-    width: 95% !important;
-    padding: 15px;
-    font-size: 16px;
-  }
+    /* تصغير حجم البوكسات */
+    .about, .paths, .choose-grid, .bottom-row-nady,
+    .goal-box, .goal-box2, .goal-box3,
+    .box, .course-card, .workshop-card, .photo-card, .club-card {
+        width: 95% !important;
+        margin: 15px auto !important;
+        text-align: center;
+    }
 
-  footer {
-    padding: 40px 20px;
-    font-size: 14px;
-  }
+    /* الهيدر والصور */
+    .hero-header, .hero1-header {
+        width: 100% !important;
+        height: auto !important;
+  
+        background-position: center !important;
+    }
+*/
+    /* ضبط الفورم */
+    .contact-form {
+        width: 95% !important;
+        padding: 20px !important;
+        margin: 20px auto !important;
+    }
 
-  .map-container iframe {
-    width: 100% !important;
-    height: 300px !important;
-  }
+    .form-group input, .form-group textarea {
+        width: 100% !important;
+        font-size: 16px;
+    }
+
+    .send-btn {
+        width: 100% !important;
+        font-size: 18px !important;
+    }
+
+    /* تصغير خانات النوادي */
+    .box-nady {
+        width: 95% !important;
+        padding: 30px !important;
+    }
+
+    /* تصغير البطاقات */
+    .workshops-wrapper, .courses-wrapper {
+        gap: 10px;
+        padding: 10px;
+    }
+
+    .workshop-card, .course-card, .photo-card {
+        min-width: 90% !important;
+        max-width: 90% !important;
+        margin: auto;
+    }
+
+    /* خرائط */
+    .map-container iframe {
+        height: 300px;
+    }
+
+    /* تصغير كروت التواصل */
+    .info-card {
+        max-width: 90% !important;
+        margin: 10px auto;
+    }
+
 }
+
+
+
+.clubs-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 15px;
+    margin-top: 20px;
+    justify-items: center;
+    padding: 10px;
+  }
+  
+  .club-box {
+    background-color: #f3f3f3;
+    color: #000;
+    text-align: center;
+    padding: 20px 10px;
+    border-radius: 10px;
+    font-weight: bold;
+    width: 100%;
+    max-width: 250px;
+  }
+  
